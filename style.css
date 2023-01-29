@@ -83,11 +83,7 @@ margin-bottom: 17px;
     margin-right: 93.8px;
 }
 
-/*.spacing{
-    width: 2px;
-    margin-top: 2px;
-    margin-bottom: 8px;
-}*/
+
 
 h4{
     font-weight: 900;
@@ -126,4 +122,17 @@ a{
 
 .cancel{
     margin-bottom: 48px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18.52px;
+    color: var(--blue);
+}
+.cancel:hover{
+    color: var(--hcolor);
+    cursor: pointer;
+}
+
+.pay:hover{
+    background-color:  #766CF1;
+    cursor: pointer;
 }
