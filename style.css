@@ -74,26 +74,27 @@ margin-bottom: 17px;
 }
 
 .music{
-    margin-right: 35px;
+    margin-right: 20px;
 }
 
 .value{
     font-display: flex;
     align-items: center;
-    margin-right: 68.8px;
+    margin-right: 93.8px;
 }
 
-.spacing{
+/*.spacing{
     width: 2px;
     margin-top: 2px;
     margin-bottom: 8px;
-}
+}*/
 
 h4{
     font-weight: 900;
     font-size: 16px;
     line-height: 21.17px;
     color: var(--hcolor);
+    margin-bottom: 6px;
 }
 
 .valueyear{
@@ -110,14 +111,6 @@ a{
     color: var(--blue);
 }
 
-/*.payment{
-    width: 354px;
-    border-radius: 11px;
-    background-color: var(--blue);
-    margin-left: 48px;
-    margin-top: 32px;
-
-}*/
 .pay{
     display: block;
     font-weight: 900;
@@ -129,5 +122,8 @@ a{
     text-decoration: none;
     background-color:var(--blue) ;
     border-radius: 11px;
+}
 
+.cancel{
+    margin-bottom: 48px;
 }
